@@ -115,7 +115,6 @@
 /***** Inizio Sezione Hero *****/
 
 .hero{
-  border: 2px solid red;
   width: 101%;
   height: 600px;
   padding: 10px;
@@ -123,6 +122,68 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  gap: 30px;
+}
+
+.hero-text{
+  color: #FFFFFF;
+  width: 50%;
+  text-align: center;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero-text h1{
+  font-size: 2.80em;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.hero-text p{
+  font-size: 1.8em;
+  font-weight: 200;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.btn-hero{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+}
+
+.btn-hero button:nth-of-type(1){
+  color: #282940;
+  background-color:#FFFFFF;
+  padding: 22px;
+  font-size: 1.30em;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 100px;
+  gap: 20px;
+}
+
+.btn-hero button:nth-of-type(1) i{
+  font-size: 1.9em;
+}
+
+.btn-hero button:nth-of-type(2){
+  color: #FFFFFF;
+  background-color:#292841;
+  padding: 22px;
+  font-size: 1.30em;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 100px;
 }
 
 /***** Fine Sezione Hero *****/
