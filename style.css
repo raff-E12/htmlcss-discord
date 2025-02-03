@@ -1,0 +1,62 @@
+/* Reset generale e adattamento dei relativi box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ripristino delle impostazioni predefinite per il corpo del documento */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Ripristino delle intestazioni */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  /* Ripristino dei paragrafi */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Ripristino dei link */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ripristino delle liste */
+  ul, ol {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Ripristino dei pulsanti */
+  button {
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
