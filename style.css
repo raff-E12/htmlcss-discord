@@ -8,7 +8,6 @@
   /* Ripristino delle impostazioni predefinite per il corpo del documento */
   body {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
     display: flex;
@@ -42,7 +41,6 @@
   /* Ripristino delle liste */
   ul, ol {
     list-style: none;
-    margin-bottom: 10px;
   }
   
   li {
@@ -74,12 +72,26 @@
     gap: 10px;
 }
 
-.logo-head{
-    width: 40%;
-    display: block;
+.header ul{
+    width: 80%;
+    border:2px solid red;
+    gap: 90px;
 }
 
+.header ul a{
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 2px;
+}
 
+.btn-sc-head{
+  border: 2px solid red;
+  padding: 10;
+  width: 10%;
+}
 /***** Fine Sezione Header *****/
 
 /***** Classi Aggiuntive *****/
