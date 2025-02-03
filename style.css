@@ -50,6 +50,10 @@
   main{
     width: 100%;
   }
+
+  img{
+    width: 100%;
+  }
   
   /* Ripristino dei pulsanti */
   button {
@@ -221,6 +225,57 @@
 .features.alternative, .call-to-action.alternative{
   background-color: #F6F6F6;
   width: 100%;
+}
+
+.call-to-action{
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.text-call{
+  padding: 30px;
+  border: 1px solid red;
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-call h2{
+  font-weight: 900;
+}
+
+
+.img-box{
+  width: 80%;
+  height: 900px;
+  border: 2px solid red;
+}
+
+.call-to-action{
+  width: 90%;
+  padding: 60px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action h2{
+  font-weight: 900;
+  font-size: .60em;
+  width: 100%;
+  padding: 12px;
+  background-image: url(img/stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
 }
 /***** Fine Sezione Features *****/
 
