@@ -217,6 +217,11 @@
   font-weight: 900;
   text-align: left;
 }
+
+.features.alternative, .call-to-action.alternative{
+  background-color: #F6F6F6;
+  width: 100%;
+}
 /***** Fine Sezione Features *****/
 
 /***** Classi Aggiuntive *****/
