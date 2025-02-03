@@ -320,6 +320,36 @@
 .social{
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-ft{
+  width: 20%;
+}
+
+.lingua{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info h3{
+  font-size: 1.2em;
+  color: #7288DA;
+  font-weight: 900;
+}
+
+.lingua p{
+  font-size: .90em;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.lingua .fa-chevron-down{
+  font-size: .90em;
 }
 
 /***** Fine Sezione Footer *****/
