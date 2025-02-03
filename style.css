@@ -310,6 +310,18 @@
   flex-direction: row;
 }
 
+.info.container-flexcol{
+  color: #F6F6F6;
+  font-size: 1.90em;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.social{
+  display: flex;
+  gap: 30px;
+}
+
 /***** Fine Sezione Footer *****/
 
 /***** Classi Aggiuntive *****/
