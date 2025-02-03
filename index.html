@@ -9,22 +9,25 @@
 </head>
 <body>
     <!-- Sezione Header -->
-    <header>
+    <header class="container-flexrow">
         <a href="#" class="logo">
             <img src="img/logo.svg" alt="Discord Logo">
         </a>
-        <ul>
+        <ul class="container-flexrow">
             <li><a href="#">Scarica</a></li>
             <li><a href="#">Perché Discord</a></li>
             <li><a href="#">Nitro</a></li>
             <li><a href="#">Sicurezza</a></li>
             <li><a href="#">Assistenza</a></li>
         </ul>
+        <div>
+            <button>Accedi</button>
+        </div>
     </nav>
     </header>
     <!-- Sezione Main con le relative intestazioni-->
-    <main>
-        <section class="hero">
+    <main class="container-flexcol">
+        <section class="hero container-flexrow">
             <div class="hero-text">
             <h1>Il tuo posto per parlare</h1>
             <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica o 
@@ -36,7 +39,7 @@
                 <button>Apri Discord nel tuo browser</button>
             </div>
         </section>
-        <section class="features">
+        <section class="features container-flexrow">
             <div class="img-box">
                 <img src="img/item1.svg" alt="img-item-1">
             </div>
@@ -46,7 +49,7 @@
                     semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
             </div>
         </section>
-        <section class="features">
+        <section class="features container-flexrow">
             <div class="text">
                 <h2>Da pochi a un fandom</h2>
                 <p>Dai inizio a una community di qualsiasi 
@@ -76,27 +79,29 @@
         </section>
     </main>
     <!-- Sezione Footer -->
-    <footer class="footer-sc">
-        <div class="info">
-            <h3>Il tuo posto per parlare</h3>
-            <div class="lingua"><img src="img/ita.png" alt="ita-icon"></div>
-            <ul class="social">
-                <li><i class="fa-brands fa-x-twitter"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-youtube"></i></li>
-            </ul>
+    <footer class="footer-sc container-flexcol">
+        <div class="links-sc container-flexrow">
+            <div class="info container-flexcol">
+                <h3>Il tuo posto per parlare</h3>
+                <div class="lingua"><img src="img/ita.png" alt="ita-icon"></div>
+                <ul class="social">
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+            <div class="link container-flexrow">
+                <ul>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="link">
-            <ul>
-                <li><a href="#">Scarica</a></li>
-                <li><a href="#">Perché Discord</a></li>
-                <li><a href="#">Nitro</a></li>
-                <li><a href="#">Sicurezza</a></li>
-                <li><a href="#">Assistenza</a></li>
-            </ul>
-        </div>
-        <div class="logo-sc-foooter">
+        <div class="logo-sc-foooter container-flexrow">
             <div class="img-log-ft">
                 <img src="img/logo.svg" alt="log-discord">
             </div>
