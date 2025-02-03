@@ -201,7 +201,6 @@
 .features{
   width: 100%;
   padding: 40px;
-  height: 820px;
   gap: 30px;
   text-align: left;
 }
@@ -276,6 +275,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 800px;
+}
+
+.call-to-action button{
+  width: 300px;
+  padding: 12px;
+  font-size: .39em;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #7288DA;
 }
 /***** Fine Sezione Features *****/
 
