@@ -71,6 +71,12 @@
     width: 100%;
     color: #FFFFFF;
     padding: 20px;
+    gap: 10px;
+}
+
+.logo-head{
+    width: 40%;
+    display: block;
 }
 
 
