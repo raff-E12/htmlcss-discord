@@ -66,10 +66,11 @@
 
 /***** Inizio Sezione Header *****/  
 
-header{
+.header{
     background-color: #255EE9;
     width: 100%;
     color: #FFFFFF;
+    padding: 20px;
 }
 
 
@@ -78,6 +79,7 @@ header{
 /***** Classi Aggiuntive *****/
 
 .container-flexrow{
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -85,6 +87,7 @@ header{
 }
 
 .container-flexcol{
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
