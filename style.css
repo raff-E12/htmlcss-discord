@@ -291,6 +291,27 @@
 }
 /***** Fine Sezione Features *****/
 
+/***** Inizio Sezione Footer *****/
+
+.footer-sc{
+  background-color: #23272A;
+  width: 100%;
+  padding: 30px;
+}
+
+.links-sc{
+  width: 100%;
+  border: 2px solid red;
+  gap: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+}
+
+/***** Fine Sezione Footer *****/
+
 /***** Classi Aggiuntive *****/
 
 .container-flexrow{
