@@ -7,11 +7,10 @@
   
   /* Ripristino delle impostazioni predefinite per il corpo del documento */
   body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,3 +63,14 @@
   button:hover {
     background-color: #0056b3;
   }
+
+/***** Inizio Sezione Header *****/  
+
+header{
+    background-color: #255EE9;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+
+/***** Fine Sezione Header *****/
