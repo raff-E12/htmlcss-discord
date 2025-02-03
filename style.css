@@ -112,6 +112,21 @@
 }
 /***** Fine Sezione Header *****/
 
+/***** Inizio Sezione Hero *****/
+
+.hero{
+  border: 2px solid red;
+  width: 101%;
+  height: 600px;
+  padding: 10px;
+  background: url(img/jumbo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/***** Fine Sezione Hero *****/
+
 /***** Classi Aggiuntive *****/
 
 .container-flexrow{
