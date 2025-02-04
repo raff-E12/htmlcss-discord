@@ -207,7 +207,7 @@
 }
 
 .feature-text{
-  width: 49%;
+  width: 100%;
   font-size: 2em;
   padding: 40px;
   gap: 10px;
@@ -237,7 +237,7 @@
 
 .text-call{
   padding: 30px;
-  width: 63%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,12 +251,14 @@
 
 
 .img-box{
-  width: 80%;
+  width: 90%;
   height: 900px;
+  display: flex;
+  align-items: center;
 }
 
 .call-to-action{
-  width: 90%;
+  width: 100%;
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -264,7 +266,7 @@
   justify-content: center;
 }
 
-.call-to-action h2{
+.call-to-action #bottom-text{
   font-weight: 900;
   font-size: .60em;
   width: 100%;
